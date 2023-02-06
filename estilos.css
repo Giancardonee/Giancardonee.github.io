@@ -1,0 +1,670 @@
+* {
+  padding: 0;
+  margin:0;
+}
+body{
+  background-color: #137d95;
+}
+
+
+/*- - Nombre,imagen, y mini descripcion - - - - - - - -*/
+section.bloque1 {
+  height: 100vh;
+  background-image: linear-gradient(0deg, #15bad3 0%, #8db7b9 80%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#ffffff;
+  font-size:3rem;
+  text-align:center;
+}
+
+section.bloque1 img {
+  width:180px;
+  border-radius:60%;
+  box-shadow:10px 5px 8px #747474;
+}
+
+h2#bloque_Presentacion {
+  text-align:center;
+  font-size:27px;
+  font-family: 'PT Serif', serif;
+  box-shadow: 5px 10px 10px #cfcfcf42;
+}
+
+/*- - - Estilos bloque experiencia - - - - - - - - -*/
+
+.flex-container {
+  display: flex;
+
+}
+
+.info1{
+  margin: 0px 60px;
+  color:black;
+}
+
+.info2 p {
+color:black;
+font-family: 'Noto Serif', serif;
+}
+
+.info2{
+  margin:10px;
+  color:black;
+  padding:50px;
+}
+
+.Bloque-Experiencia{
+  background-image: linear-gradient(0deg, #accfdd 0%, #15bad3 80%);
+  width: 100%;
+   min-height: 87vh;;
+  text-align:center;
+  margin-top: 30px;
+}
+#Titulo-Exp {
+  color: white;
+  font-size: 60px;
+  text-decoration: underline;
+  padding: 23px;
+  background-color: #0e7997;
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: 4px 5px #0000006b;
+  margin-top: 100px;
+}
+
+.Bloque-Experiencia h2{
+  font-size: 60px;
+  font-family:ui-serif;
+  color:white;
+  text-decoration:underline;
+  margin-bottom:30px;
+  padding: 12px;
+}
+
+
+.Bloque-Experiencia h3 {
+  font-family: 'PT Serif', serif;
+  color:white;
+  text-decoration: underline;
+  font-size:40px;
+  margin-top: 22px;
+}
+
+.Bloque-Experiencia h4{
+  margin:15px;
+  font-size:40px;
+  color:white;
+}
+
+.Bloque-Experiencia p {
+  font-size:25px;
+  padding:8px;
+  margin:0px 40px 5px 40px;
+}
+
+.info1 h3, .info2 h3 {
+  font-family: 'Roboto Slab', serif;
+}
+/*- - - -Estilo bloque habilidades - - - - - - -*/
+
+.Bloque-Habilidades {
+  margin-top:30px;
+  background-image: linear-gradient(0deg, #15bad3 0%, #a7cad0 80%);
+  width: 100%;
+  min-height: 87vh;
+  text-align:center;
+}
+
+#Titulo-Habilidades {
+  color:white;
+  font-size: 40px;
+  text-decoration: underline;
+  padding-top: 20px;
+}
+
+#Titulo-SobreMi {
+  color: white;
+  font-size: 60px;
+  text-decoration: underline;
+  padding: 31px;
+  background-color: #188598;
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: 4px 5px #0000006b;
+  margin-top: 100px;
+}
+
+#Titulo-Des, #Titulo-Dis {
+  margin-top: 30px;
+  font-size: 25px;
+  color:white; 
+  font-family: 'Aboreto', cursive;
+}
+
+.ResaltarLaboral {
+      background-color: #109bb3;
+      color:white;
+}
+
+.descripcion-SobreMi p {
+  margin:40px 30px; 
+  font-size:30px; 
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.ResaltarHab p {
+  background-color: #b7b7b7;
+  display:inline-block;
+  margin: 15px;
+  padding:8px;
+  border-radius:40%;
+  box-shadow: 5px 8px 10px #82eefd;
+  font-size:20px;
+  
+}
+
+i{
+  margin-right:10px;
+}
+.ResaltarDis p {
+  background-color: #b7b7b7;
+  display:inline-block;
+  margin: 15px;
+  padding:13px;
+  border-radius:40%;
+  box-shadow: 5px 8px 10px #82eefd;
+  font-size:20px;
+}
+
+.rectangulo-Habilidades, .ResaltarDis {
+  font-family: 'Source Code Pro', monospace;
+}
+
+/*Estilos para boton LeerMas */
+
+.LeerMas_btn {
+  background-color: #2b98c0;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px #0f647e;
+  cursor: pointer;
+}
+
+.LeerMas_btn:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+ 
+.EsconderText {
+  display: none;
+}
+
+.showText {
+  display: block;
+}
+
+
+
+/*- - - -Estilo Contacto - - - - - - - - - - - - - -  */
+.Bloque-Contacto { 
+  margin: 30px 0px 0px 0px;
+  width: 100%;
+  min-height: 170vh;
+  background-image: linear-gradient(0deg, #530fc0 0%, #15bad3 80%);
+
+}
+
+.informacionPersonal {
+  text-align: center;
+  margin:10px;
+  font-size: 20px;
+}
+
+
+#Titulo-Contacto {
+    color: white;
+    font-size: 60px;
+    text-decoration: underline;
+    padding: 31px;
+    background-color: #346f92;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 4px 5px #0000006b;
+    margin-top: 100px;
+  }
+
+
+.informacionPersonal p {
+  font-size: 30px;
+  margin-top: 36px;
+}
+
+.Contactame h2 {
+  text-align: center;
+  color:white;
+  font-size:50px;
+  margin-top:80px;
+  margin-bottom: 100px;
+  text-decoration:underline
+}
+
+/*Estilos Form */
+.form {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9e9e9e;
+  margin-bottom: 7px;
+  border-radius: 5%;
+  box-shadow:3px 6px 0 #2f2f2f;
+}
+
+.form input {
+  width: 90%;
+  height: 35px;
+  margin: 0.5rem;
+  font-size:20px;
+}
+
+textarea {
+  font-size:20px;
+}
+
+.form button {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(100, 200, 255);
+  cursor: pointer;
+}
+
+label{
+  font-size: 27px;
+}
+
+/*Footer Estilos */
+
+footer{
+background-color:#000000;
+}
+
+.Fotos-Footer {
+  justify-content: center;
+  gap: 25px;
+  padding: 1.7em;
+  height: 50px;
+  display: flex;
+  max-width: 100%;
+}
+
+footer h3{ 
+  display:block;
+  text-align: center;
+  font-size:30px;  
+  color:white;
+  border:none;
+}
+
+footer h4{
+  color:white;
+  text-align: center;
+  font-size: 20px;
+}
+
+footer h5 {
+margin-top:10px;
+color:white;
+text-align: center;
+font-size:15px;
+}
+
+#ImgFooter2{
+height: 38px;
+width: 155px;
+}
+
+#ImgFooter1 {
+height:70px;
+width:70px;
+}
+
+.Estilos-Form {
+  width:100%;
+  text-align:center;
+  margin-top:50px;
+  min-height:500px;
+  font-size:25px;
+  font-family:sans-serif;
+}
+
+.Estilos-Form button{
+background-color:#b4b4b4;
+font-size:20px;
+margin:6px;
+padding:2px;
+}
+
+
+@media (max-width:310px){
+
+    .Bloque-Contacto {
+    height: 190vh;
+      }
+    .Bloque-Experiencia h2{
+      font-size:50px;
+    }
+}
+
+@media (max-width:391px) {
+
+  .informacionPersonal p{
+      font-size: 23px;
+  }
+
+section.Bloque-Experciencia h2 {
+    font-size:30px;
+  }
+
+.Estilos-Form {
+font-size:21px;
+min-height:500px;
+}
+
+.Estilos-Form button{
+padding:0px;
+  margin-top:30px;
+}
+
+textarea {
+  width:70%;
+}
+
+#Titulo-Exp {
+  font-size:50px;
+}
+
+}
+
+
+@media (max-width:430px) {
+
+.informacionPersonal p{
+    font-size: 21px;
+}
+
+.Bloque-Experiencia p {
+  font-size:23px;
+  margin:10px 0px;
+  padding:3px;
+}
+
+.Bloque-Experiencia h4 { 
+    font-size:30px;
+}
+
+.Bloque-Contacto {
+    min-height: 180vh;
+      }
+
+         footer h3 {
+font-size:20px;
+}
+
+footer h3 {
+font-size:20px;
+}
+
+footer h4 {
+font-size:15px;
+margin-bottom:30px;
+}
+
+#Titulo-Contacto{
+font-size:40px;
+padding-top:40px;
+}
+.Estilos-Form button {
+  margin:10px;
+}
+
+ .info2 {
+  margin: 13px;
+  padding: 20px;
+ }
+}
+
+
+
+@media (max-width:460px) {
+  .Estilos-Form h2 {
+    font-size:33px;
+  }
+}
+
+@media (max-width:650px) {
+
+  textarea {
+    width:70%
+  }
+}
+
+@media (max-width:671px) {
+
+h1 {
+  font-size:50px;
+}
+
+.flex-container {
+  display:inline-block;
+}
+
+.descripcion-SobreMi p {
+  font-size:22px;
+}
+
+}
+
+@media (min-width:1180px) {
+
+  .descripcion-SobreMi p {
+    margin:50px 170px;
+  }
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+  
+  .Bloque-Experiencia p,.descripcion-SobreMi p {
+     font-size:25px;
+  }
+
+  .Bloque-Contacto button{
+    margin-top:30px;
+    font-size:18px;
+    
+  }
+}
+/*Estilos para los botones del form */
+
+.Estilos-Form button {
+  background-color: #2b98c0;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 7px 20px;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px 0px #0f647e;
+  cursor: pointer;
+}
+
+#cambioFondoTurquesa:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+#colorFondoDefault:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+#cambioColorLetra:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+#colorLetraDefault:hover {
+  box-shadow: none;
+  background-color: black;
+  color: #fff;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+
+/*Estilos barra de NAV */
+.BarraNav {
+  background-color: #1c90a1;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  box-shadow: 4px 7px #34343473;
+}
+
+.Bloque-nav {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 892px;
+  margin: 0 auto;
+}
+
+.Bloque-nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.Bloque-nav a {
+  font-size:30px;
+  margin:30px;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+  color: white;
+}
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.nav-menu-link {
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link_active {
+
+  transition: 0.5s;
+  background: #8585856b;
+  color: #ffffff;
+  box-shadow:3px 3px 0 #f3f3f394;
+  border-radius:20%
+}
+
+/* TOGGLE */
+.nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+
+  display: none;
+}
+
+section[id] { 
+  scroll-padding-top: 70px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  body {
+    padding-top: 70px;
+  }
+
+  .BarraNav {
+    height: 60px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #585858;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0;
+
+    height: calc(100% - 60px);
+    overflow-y: auto;
+
+    left: 100%;
+    transition: left 0.3s;
+  }
+
+  .nav-menu-item {
+    line-height: 70px;
+  }
+
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background: #259ab096;
+    color: #ffffff;
+    box-shadow:3px 3px 0 black;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu_visible {
+    left: 0;
+  }
+
+  .nav-toggle:focus:not(:focus-visible) {
+    outline: none;
+  }
+}
